@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: green;
+}
+
+.fio {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+.red {
+    color: red;
+}
+.brown {
+    color: brown;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+h5, div, p, span {
+    background-color: gainsboro;
+    padding: 10px;
+    margin: 10px;
+}
