@@ -1,8 +1,12 @@
-h5, div, p, span {
+span {
     background-color: gainsboro;
     // padding: 10px;
     // margin: 10px;
     height: 40px;
     width: 300px;
     display: block;
+}
+
+div {
+    display: inline;
 }
