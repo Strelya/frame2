@@ -1,10 +1,26 @@
-span {
-  background-color: gainsboro;
-  height: 40px;
-  width: 300px;
-  display: block;
+.test {
+  height: 50px;
+  width: 50px;
+  background: orange;
+  left: 200px;
+  bottom: 40px;
+  position: relative;
 }
 
-div {
-  display: inline;
+input[type="checkbox"] {
+  position: relative;
+  top: 2px;
+}
+
+.rect {
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+  border: 1px solid black;
+}
+
+.sq {
+  width: 50px;
+  height: 50px;
+  background: lime;
 }

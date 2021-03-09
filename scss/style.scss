@@ -1,12 +1,41 @@
-span {
-    background-color: gainsboro;
-    // padding: 10px;
-    // margin: 10px;
-    height: 40px;
-    width: 300px;
-    display: block;
+// position
+// static
+// fixed
+// relative
+// absolute
+.test {
+    height: 50px;
+    width: 50px;
+    background: orange;
+    // top: 400px;
+    // right: 400px;
+    left: 200px;
+    bottom: 40px;
+    // bottom: 200px;
+    position: relative;
 }
 
-div {
-    display: inline;
+input[type="checkbox"] {
+    position: relative;
+    top: 2px;
 }
+
+.rect {
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    border: 1px solid black;
+}
+.sq {
+    width: 50px;
+    height: 50px;
+    background: lime;
+}
+
+.p1 {
+    
+}
+// p {
+//     height: 1000px;
+//     background: lime;
+// }
